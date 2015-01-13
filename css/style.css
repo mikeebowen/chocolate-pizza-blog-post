@@ -105,6 +105,8 @@ header {
   font-size: .75em;
   text-align: left;
   color: #a9aca5;
+  line-height: .5em;
+  margin-top: -5%;
 }
 
 .foodPhoto {
@@ -125,6 +127,9 @@ header {
   float:right;
   margin-top: 2%;
   margin-bottom: auto;
+  max-width: 57px;
+  max-height: 22px;
+  padding: 0;
 }
 
 .blogPost {
