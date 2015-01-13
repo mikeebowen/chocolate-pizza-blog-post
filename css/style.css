@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Yellowtail);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+@import url(http://fonts.googleapis.com/css?family=Abel);
 
 .containter {
   /*background-color: red;*/
@@ -22,9 +23,7 @@ header {
   /*background-color: yellow;*/
   width: 80%;
   margin: 0 auto;
-  display: inline-block;
-  clear: right;
-  clear: left;
+  clear: both;
   vertical-align: top;
   /* Attempt at using css to create border
   border-image-slice: 27 0 0 0;
@@ -43,6 +42,7 @@ header {
 .border {
   margin-top: 3%;
   margin-bottom: 3%;
+  padding-top:3%;
 }
 
 .border img{
@@ -74,7 +74,7 @@ header {
   line-height: 0.75;
   margin-top: 0em;
   margin-bottom: auto;
-  font-size: 1em;
+  font-size: .75em;
   text-align: left;
 }
 
@@ -91,7 +91,7 @@ header {
 }
 
 .articleTitle h1{
-  font-family: Open Sans;
+  font-family: Abel;
   font-size: 2em;
   text-align: left;
 }
@@ -101,7 +101,7 @@ header {
 }
 
 .date h3 {
-  font-family: Open Sans;
+  font-family: Abel;
   font-size: .75em;
   text-align: left;
   color: #a9aca5;
