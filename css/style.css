@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+
+.containter {
+  /*background-color: red;*/
+  width:900px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+header {
+  /*background-color: gray;*/
+}
+
+/*could not make children of container all width: 80%;
+.container * {
+  width:80%;
+}
+*/
+.main {
+  /*background-color: yellow;*/
+  width: 80%;
+  margin: 0 auto;
+  display: inline-block;
+  clear: right;
+  clear: left;
+  vertical-align: top;
+  /* Attempt at using css to create border
+  border-image-slice: 27 0 0 0;
+  border-image-width: 27px 0px 0px 0px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url("images/slanted-border.png");
+  */
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.border img{
+  width:100%;
+}
+
+.logo {
+  float: left;
+}
+
+.title {
+  /*background-color: red;*/
+  display: inline-block;
+  float: left;
+  padding: 0px;
+}
+
+.title h1 {
+  margin-top: 1%;
+  font-family: Yellowtail;
+  font-size:2.5em;
+  text-align: left;
+}
+
+.title p{
+  font-family: Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1em;
+  text-align: left;
+}
+
+.social {
+  /*background-color: blue;*/
+  display: inline-block;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: auto;
+}
+
+.articleTitle {
+  margin-left: 20%;
+}
+
+.articleTitle h1{
+  font-family: Open Sans;
+  font-size: 2em;
+  text-align: left;
+}
+
+.date {
+  margin-left: 20%;
+}
+
+.date h3 {
+  font-family: Open Sans;
+  font-size: .75em;
+  text-align: left;
+  color: #a9aca5;
+}
+
+.foodPhoto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.foodPhoto img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width:60%;
+}
+
+.printButton {
+  display:inline-block;
+  margin-right: 20%;
+  float:right;
+  margin-top: 2%;
+  margin-bottom: auto;
+}
+
+.blogPost {
+  padding: 10%;
+}
+
+.blogPost p {
+  font-family: Times;
+  text-align: left;
+  color: #75585a;
+}
+
+.list {
+  font-family: Patrick Hand;
+  color: #636c59;
+  text-align: left;
+  line-height: 20px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  -ms-background-size: 100% 20px;
+  -o-background-size: 100% 20px;
+  background-size: 100% 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list>section {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1% 1% 1% 5%;
+}
+
+.headShot {
+  display:block;
+  float:left;
+}
+
+.shareButton {
+  float:right;
+  width:120px;
+  height:50px;
+  color:white;
+  background-color:#bc7058;
+  font-weight: bold;
+}
+
+.shareButtonBox {
+  float: right;
+  margin-top: 2%;
+  margin-bottom: auto;
+  }
+
+.authorName {
+  margin-right: 20%;
+}
+
+.authorBio {
+  margin-right: 20%;
+  padding-right:2%;
+}
+
+.footer {
+  margin-top: 10%;
+  clear:both;
+}
+
+.footer p {
+  font-size: .75em;
+  color: #a3aac6;
+}
+
+.authorInfo {
+  color: #5e5f51;
+  font-family: Times;
+  text-align: left;
+}
+
+.authorInfo h3 {
+  font-size: .75em;
+}
