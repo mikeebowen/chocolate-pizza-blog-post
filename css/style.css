@@ -87,7 +87,7 @@ header {
 }
 
 .articleTitle {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .articleTitle h1{
@@ -112,18 +112,19 @@ header {
 .foodPhoto {
   margin-right: auto;
   margin-left: auto;
+  width:80%
 }
 
 .foodPhoto img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  max-width:60%;
+  width:100%;
 }
 
 .printButton {
   display:inline-block;
-  margin-right: 20%;
+  margin-right: 10%;
   float:right;
   margin-top: 2%;
   margin-bottom: auto;
