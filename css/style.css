@@ -53,6 +53,9 @@ header {
 
 .header {
   /* margin: 0 auto; */
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  padding-bottom: 10px;
 }
 
 .border {
@@ -198,7 +201,10 @@ header {
 .footer {
   margin-top: 10%;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px, auto, 0, auto;
+  border-top-style: solid;
+  border-top-width: 10px;
+  padding-top: 20px;
 }
 
 .footer p {
