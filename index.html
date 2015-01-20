@@ -2,19 +2,20 @@
 <html>
   <head>
     <title>Delicious - The Best Food Blog on the Web!</title>
+    <meta name="keywords" content="recipe, pizza, chocolate, food">
+    <meta name="description" content="The best place on the web for your recipes">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div class="container_16">
-      <header class="header grid_16">
-        <section class="logo">
-          <img src="images/fork-knife-icon.png" />
-        </section>
-        <section class="title grid_4">
+      <header class="header grid_16 inline-block">
+        <img src="images/fork-knife-icon.png" class="float-left"/>
+        <section class="title grid_4 float-left inline-block left-aligned-text">
           <h1>Delicious</h1>
           <p>The Best Food Blog on the Web</p>
         </section>
-        <aside class="social grid_4">
+        <aside class="social float-right inline-block grid_4">
           <a href="http://facebook.com"><img src="images/facebook-icon.png" /></a>
           <a href="http://twitter.com"><img src="images/twitter-icon.png" /></a>
           <a href="http://google.com"><img src="images/google-plus-icon.png" /></a>
@@ -24,28 +25,27 @@
           <a href="http://new.google.com"><img src="images/rss-icon.png" /></a>
         </aside>
       </header>
-      <main class="main grid_1">
-        <section class="border grid_16">
-          <img src="images/dashed-border.png" />
-        </section>
-        <button class="printButton grid_2">
+      <main class="main grid_16 clear-line inline-block">
+        <button class="printButton inline-block float-right grid_2">
           <img  src="images/print-button.png" />
         </button>
-        <section class="articleTitle grid_4">
+        <section class="articleTitle left-aligned-text grid_4">
           <h1>Chocolate Pizza</h1>
         </section>
-        <section class="date grid_4" placeholder="printArticle">
-          <h3>POSTED ON 15 DECEMBER 2013</h3>
-        </section>
-        <section class="foodPhoto grid_10">
-          <img src="images/chocolate-pizza.png" />
-        </section>
-        <article class="blogPost grid_10">
-          <p>Topping apple pie dessert applicake biscuit donut. Sweet roll chupa chups pie ice cream jelly beans cupcake. Macaroon oat cake marzipan unerdwear.com. Cake ice cream cupcake sweet roll brownie. Marzipan pastry chocolate bar cupcake. Tiramisu cotton candy sweet marshmallow soufflé.</p>
-          <p>Gummies jelly tootsie roll. Marzipan chocolate bar toffee. Gingerbread pudding cheesecake chocolate cake wafer chocolate applicake. Brownie gummi bears macaroon. Chupa chups cheesecake lemon drops bonbon dragée liquorice jelly. Gummies cotton candy jelly.</p>
-          <p>Cookie gummies lollipop apple pie caramels danish. Topping jelly pie tootsie roll lemon drops tootsie roll danish. Bonbon gummies cotton candy brownie icing liquorice. Cheesecake fruitcake caramels lollipop unerdwear.com marshmallow icing carrot cake. Lollipop sweet roll icing candy canes muffin chocolate cake. Danish applicake chupa chups jelly beans muffin. Pie halvah cheesecake donut tiramisu croissant caramels gummi bears tootsie roll. Croissant jelly cake chocolate bar brownie.</p>
+        <article>
+          <section class="date left-aligned-text grid_4" placeholder="printArticle">
+            <h3>POSTED ON 15 DECEMBER 2013</h3>
+          </section>
+          <section class="foodPhoto full-width-image grid_10">
+            <img src="images/chocolate-pizza.png" />
+          </section>
+          <section class="blogPost left-aligned-text grid_10">
+            <p>Topping apple pie dessert applicake biscuit donut. Sweet roll chupa chups pie ice cream jelly beans cupcake. Macaroon oat cake marzipan unerdwear.com. Cake ice cream cupcake sweet roll brownie. Marzipan pastry chocolate bar cupcake. Tiramisu cotton candy sweet marshmallow soufflé.</p>
+            <p>Gummies jelly tootsie roll. Marzipan chocolate bar toffee. Gingerbread pudding cheesecake chocolate cake wafer chocolate applicake. Brownie gummi bears macaroon. Chupa chups cheesecake lemon drops bonbon dragée liquorice jelly. Gummies cotton candy jelly.</p>
+            <p>Cookie gummies lollipop apple pie caramels danish. Topping jelly pie tootsie roll lemon drops tootsie roll danish. Bonbon gummies cotton candy brownie icing liquorice. Cheesecake fruitcake caramels lollipop unerdwear.com marshmallow icing carrot cake. Lollipop sweet roll icing candy canes muffin chocolate cake. Danish applicake chupa chups jelly beans muffin. Pie halvah cheesecake donut tiramisu croissant caramels gummi bears tootsie roll. Croissant jelly cake chocolate bar brownie.</p>
+          </section>
         </article>
-        <section class="list">
+        <section class="list left-aligned-text">
           <section class="leftColumn grid_5">
           <p><input type="checkbox" placeholder="" />1 1/2 cups milk</p>
           <p><input type="checkbox" placeholder="" />1/2 cup mascarpone</p>
@@ -63,24 +63,21 @@
           <p><input type="checkbox" placeholder="" />1 cup honey roasted pecans, roughly chopped</p>
         </section>
         </section>
-        <section class="border">
-          <img src="images/dashed-border.png" />
-        </section>
-        <section class="shareButtonBox grid_2">
-          <input class="shareButton" type="button" placeholder="" value="Share Recipe" />
-        </section>
-        <section class="authorInfo grid_14">
-          <section class="headShot">
-            <img src="images/headshot.png" />
+        <footer class="footer clear-line grid_16 inline-block">
+          <section class="shareButtonBox float-right grid_2">
+            <input class="shareButton float-right" type="button" placeholder="" value="Share Recipe" />
           </section>
-          <section class="authorName">
-            <h2>Person Name</h2>
+          <section class="authorInfo left-aligned-text grid_14">
+            <section class="headShot display-block float-left">
+              <img src="images/headshot.png" />
+            </section>
+            <section class="authorName">
+              <h2>Person Name</h2>
+            </section>
+            <section class="authorBio">
+              <p>chocolate cake wafer chocolate applicake. Brownie gummi bears macaroon. Chupa chups cheesecake lemon drops bonbon dragée liquorice jelly. Gummies cotton candy jelly.</p>
+            </section>
           </section>
-          <section class="authorBio">
-            <p>chocolate cake wafer chocolate applicake. Brownie gummi bears macaroon. Chupa chups cheesecake lemon drops bonbon dragée liquorice jelly. Gummies cotton candy jelly.</p>
-          </section>
-        </section>
-        <footer class="footer grid_16">
           <img src="images/fork-knife-icon.png">
           <p>Copyright Info</p>
         </footer>
